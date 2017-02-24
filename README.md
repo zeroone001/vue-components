@@ -1,2 +1,1 @@
-# vue-components
-All vue-components
+# components 构造函数

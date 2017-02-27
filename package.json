@@ -18,9 +18,7 @@
     "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8081 --config build/webpack.dev.config.js",
     "dist:dev": "webpack --config build/webpack.dist.dev.config.js",
     "dist:prod": "webpack --config build/webpack.dist.prod.config.js",
-    "dist": "npm run dist:dev && npm run dist:prod",
-    "test": "npm run dist",
-    "prepublish": "npm run dist"
+    "dist": "npm run dist:dev && npm run dist:prod"
   },
   "repository": {
     "type": "git",

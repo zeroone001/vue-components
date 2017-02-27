@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h4>基本</h4>
+        <h4>button展示</h4>
         <i-button></i-button>
     </div>
 </template>

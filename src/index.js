@@ -1,11 +1,11 @@
 // es6 polyfill
 import Button from './components/button';
-const iview = {
+const icomponents = {
     iButton: Button
 };
 const install = function (Vue, opts = {}) {
-    Object.keys(iview).forEach((key) => {
-        Vue.component(key, iview[key]);
+    Object.keys(icomponents).forEach((key) => {
+        Vue.component(key, icomponents[key]);
     });
 };
 
@@ -14,4 +14,4 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
 
-module.exports = Object.assign(iview, {install});   // eslint-disable-line no-undef
+module.exports = Object.assign(icomponents, {install});   // eslint-disable-line no-undef

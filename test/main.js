@@ -4,19 +4,16 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './app';
-import iView from '../src/index';
-// import locale from '../src/locale/lang/en-US';
-// import locale from '../src/locale/lang/zh-CN';
+import iComponents from '../src/index';
 
 Vue.use(VueRouter);
-Vue.use(iView);
+Vue.use(iComponents);
 
 // 开启debug模式
 Vue.config.debug = true;
 
 // 路由配置
 const router = new VueRouter({
-    // history: true
     routes:[
     {
         path:'/button',
@@ -27,19 +24,6 @@ const router = new VueRouter({
     ]
 });
 
-
-// router.beforeEach(function () {
-//     window.scrollTo(0, 0);
-// });
-
-// router.afterEach(function (transition) {
-
-// });
-
-// router.redirect({
-//     '*': "/button"
-// });
-// router.start(App, '#app');
 let app = new Vue({
   router,
   render: h => h(App),

@@ -8,8 +8,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/dist/',
-        filename: 'iview.js',
-        library: 'iview',
+        filename: 'icomponents.js',
+        library: 'icomponents',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

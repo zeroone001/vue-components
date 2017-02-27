@@ -1,15 +1,15 @@
 {
-  "name": "components",
-  "version": "2.0.1",
-  "title": "components",
-  "description": "components",
+  "name": "icomponents",
+  "version": "2.1.1",
+  "title": "icomponents",
+  "description": "It is components",
   "keywords": [
     "vue",
     "vue.js",
     "component",
     "components"
   ],
-  "main": "dist/iview.js",
+  "main": "dist/icomponents.js",
   "files": [
     "dist",
     "src"

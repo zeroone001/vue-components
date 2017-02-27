@@ -39,6 +39,9 @@ module.exports = {
             test: /\.less$/,
             loader: 'style!css!less'
         }, {
+            test: /\.scss$/,
+            loader: 'style!css!sass?sourceMap'
+        },{
             test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/,
             loader: 'url?limit=8192'
         }, {
